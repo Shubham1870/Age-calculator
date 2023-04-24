@@ -1,0 +1,54 @@
+#main-container{
+    background-color: lightblue;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+    
+}
+#second-container{
+    background-color: rgb(234, 229, 229);
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+  
+}
+#header{
+    width: 100%;
+    background-color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+#input{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: large;
+    ;
+}
+#input input{
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid blue;
+}
+#input label{
+    color: blue;
+}
+#button{
+    margin-top: 3rem;
+    margin-left: 42%;  
+}
+#button input{
+    padding: 1rem;
+    width: 25%;
+    background-color: lightblue;
+}
+
+#output{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
